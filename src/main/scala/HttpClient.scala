@@ -8,7 +8,7 @@ import spray.client.pipelining._
 
 object HttpClient {
 
-  def main(args: Array[String]): Unit = {
+  /*def main(args: Array[String]): Unit = {
 
   }
 
@@ -27,5 +27,5 @@ object HttpClient {
     ) yield sendReceive(connector)
 
   val request = Get("/")
-  val response: Future[HttpResponse] = pipeline.flatMap(_(request))
+  val response: Future[HttpResponse] = pipeline.flatMap(_(request))*/
 }
